@@ -20,7 +20,7 @@ function App() {
   }, [])
 
   return (
-    <div className="background">
+    <div className="container">
     {/*Math.truc() used to remove float numbers*/}
       <h1 className="mouse-x-position"> X POSITION OF CURSOR IS {Math.trunc(mouseXposition.x)}</h1>
     </div>
